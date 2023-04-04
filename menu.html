@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;margin: 0;padding: ;}
+        .main
+        {
+            height: 50px;
+            background: coral;
+        }
+        .main .x
+        {
+            /* text-align: center; */
+            padding: 15px ;
+            border: 1px solid;
+        }
+        .x .xx{
+            display: inline;
+            border: 1px solid;
+            padding: 12px 30px;
+            margin-left: 10px;
+            background: red;
+            position: relative;
+        }
+        .x .xx .submenu
+        {
+            height: 400px;
+            width: 580px;
+            background: skyblue;
+            /* border: 1px solid; */
+            position: absolute;
+            top: 100%;
+            left: -1px;
+            display: none;
+            box-shadow: 10px 10px 15px gray, -10px 0 15px gray;
+        }
+        .xx:hover .submenu
+        {
+            display: block;
+        }
+        .submenu .left
+        {
+            height: 400px;
+            width: 180px;
+            background: slategray;
+        }
+        .bd .right
+        {
+            height: 400px;
+            width: 400px;
+            background:olive;
+            position: absolute;
+            top: 0;
+            left: 180px;
+            display: flex;
+            justify-content: center;
+            padding: 25px;
+            visibility: hidden;
+        }
+        .bd:hover .right
+        {
+            visibility: visible;
+        }
+        .right .left1
+        {
+            height: 250px;
+            width: 200px;
+            background: orange;
+            margin: 20px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul class="x">
+            <li class="xx">News
+                <div class="submenu">
+                    <div class="left">
+                        <ul>
+                            <li class="bd"> Entertainment1
+                                <div class="right">
+                                    <div class="left1">tech1</div>
+                                    <div class="left1">tech2</div>
+                                </div>
+
+                            </li>
+
+                            <li class="bd">Entertainment2
+                                <div class="right">
+                                    <div class="left1">tech</div>
+                                    <div class="left1">tech</div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="xx">Entertainment
+                <div class="submenu">
+                    <div class="left">
+                        <ul>
+                            <li class="bd"> Entertainment1
+                                <div class="right">
+                                    <div class="left1">tech1</div>
+                                    <div class="left1">tech2</div>
+                                </div>
+
+                            </li>
+
+                            <li class="bd">Entertainment2
+                                <div class="right">
+                                    <div class="left1">tech</div>
+                                    <div class="left1">tech</div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </li>
+
+            <li class="xx">News
+                <div class="submenu">
+                    <div class="left">
+                        <ul>
+                            <li class="bd"> Entertainment1
+                                <div class="right">
+                                    <div class="left1">tech1</div>
+                                    <div class="left1">tech2</div>
+                                </div>
+
+                            </li>
+
+                            <li class="bd">Entertainment2
+                                <div class="right">
+                                    <div class="left1">tech</div>
+                                    <div class="left1">tech</div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="xx">News
+                <div class="submenu">
+                    <div class="left">
+                        <ul>
+                            <li class="bd"> Entertainment1
+                                <div class="right">
+                                    <div class="left1">tech1</div>
+                                    <div class="left1">tech2</div>
+                                </div>
+
+                            </li>
+
+                            <li class="bd">Entertainment2
+                                <div class="right">
+                                    <div class="left1">tech</div>
+                                    <div class="left1">tech</div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>s
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
